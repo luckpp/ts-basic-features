@@ -76,6 +76,12 @@ let numberAboveZero: boolean | number = false;
 
 The example above is a bad coding example but it might be required at times.
 
+## Abstract classes in TS
+
+- they can not be instantiated
+- used to set up requirements for subclasses
+- do create a class when they are translated to JS, so they can be used in `instanceof` checks
+
 ---
 
 # Function return annotations
@@ -100,8 +106,3 @@ Tuples are very useful when working with CSV files and you want to represent a s
 
 For more references browse the content of the current project.
 
-## Abstract classes in TS
-
-- they can not be instantiated
-- used to set up requirements for subclasses
-- do create a class when they are translated to JS, so they can be used in `instanceof` checks
