@@ -99,3 +99,9 @@ NOTE: - we use 'never' tell that we are never going to reach the end of the func
 Tuples are very useful when working with CSV files and you want to represent a single row.
 
 For more references browse the content of the current project.
+
+## Abstract classes in TS
+
+- they can not be instantiated
+- used to set up requirements for subclasses
+- do create a class when they are translated to JS, so they can be used in `instanceof` checks
